@@ -16,7 +16,6 @@
 <script>
 import post from "@/components/post.vue";
 import { compileFunction } from 'vm';
-
 export default {
   data() {
     return {
@@ -44,7 +43,6 @@ export default {
   },
   created() {
         this.getPosts();
-
 },
   name: "posts",
   components: {
