@@ -11,16 +11,13 @@
                   <v-spacer></v-spacer>
                 </v-toolbar>
                 <v-list two-line>
-                  <template v-for="comment in comments">
+                  <template v-for="comment in comments" class="comment-item">
                     <v-list-tile>
                       <v-list-tile-content>
                         <v-list-tile-title>{{ comment.name }}</v-list-tile-title>
                         <v-list-tile-sub-title class="text--primary">{{comment.email }}</v-list-tile-sub-title>
                         <v-list-tile-sub-title>{{ comment.body }}</v-list-tile-sub-title>
                       </v-list-tile-content>
-                      <v-list-tile-action>
-                        <v-icon color="grey lighten-1">star_border</v-icon>
-                      </v-list-tile-action>
                     </v-list-tile>
                   </template>
                 </v-list>
@@ -33,11 +30,12 @@
   </div>
 </template>
 
- <style lang="sass" scoped>
-.comment-item
-  padding-bottom: 15px
-  padding-top: 15px
-  
+<style lang="scss" scoped>
+.comment-item {
+	padding-bottom: 40px;
+	padding-top: 40px;
+  color:red;
+}
 </style>
 
 

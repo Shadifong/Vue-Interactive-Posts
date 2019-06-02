@@ -1,4 +1,5 @@
 <template>
+
   <div class="main-container">
     <post
       :title="post.title"

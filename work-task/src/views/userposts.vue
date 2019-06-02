@@ -29,13 +29,13 @@
     </div>
   </div>
 </template>
-<style lang="sass" scoped>
-.post-item
-  padding-bottom: 15px
-  padding-top: 15px
-  
+<style lang="scss" scoped>
+.comment-item {
+	padding-bottom: 30px;
+	padding-top: 40px;
+  color:red;
+}
 </style>
-
 <script>
 const fetch = window.location.pathname.split(":")[1];
 

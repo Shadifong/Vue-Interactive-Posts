@@ -29,10 +29,11 @@
     </div>
   </div>
 </template>
-<style>
+<style lang="scss" scoped>
 .comment-item {
-  padding-bottom: 15px;
-  padding-top: 15px;
+	padding-bottom: 30px;
+	padding-top: 40px;
+  color:red;
 }
 </style>
 <script>
