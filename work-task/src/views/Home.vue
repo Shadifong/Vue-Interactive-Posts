@@ -1,26 +1,39 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <h1>Search For Comments or Posts</h1>
-    <input>
+<div>
+   <input type="text" v-model='search'  />
+  <div id="home">
+   
+    <div class="post" v-for="post in searchList" >
+      <post 
+        :userId="post.userId"
+        :postId="post.id"
+        :title="post.title"
+        :body="post.body"
+        :main="true"
+      />
+    </div>
+  </div>
   </div>
 </template>
 
 
 
-
 <script>
 import post from "@/components/post.vue";
+import '../styles/posts.scss'
 import '../styles/home.scss'
-
-import { compileFunction } from 'vm';
 
 export default {
   data() {
     return {
       posts: [],
-
+      search: ""
     };
+  },
+  computed: {
+        searchList () {
+       return this.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
+        }
   },
   methods: {
     getPosts() {
@@ -36,9 +49,8 @@ export default {
   },
   created() {
         this.getPosts();
-
 },
-  name: "Home",
+  name: "posts",
   components: {
     post
   }
