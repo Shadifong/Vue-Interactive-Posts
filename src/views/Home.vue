@@ -1,7 +1,9 @@
 <template>
-   <div id="home">
+<div>
+   <input type="text" v-model='search'  />
+  <div id="home">
    
-    <div class="post" v-for="post in posts" >
+    <div class="post" v-for="post in searchList" >
       <post 
         :userId="post.userId"
         :postId="post.id"
@@ -11,22 +13,28 @@
       />
     </div>
   </div>
-
+  </div>
 </template>
+
 
 
 <script>
 import post from "@/components/post.vue";
 import '../styles/posts.scss'
+import '../styles/home.scss'
 
 export default {
   data() {
     return {
       posts: [],
+      search: ""
     };
   },
-  methods: {
-    getPosts() {
+  computed: {
+        searchList () {
+       return this.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
+      },
+        getPosts() {
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
           this.posts = response.data;
@@ -37,9 +45,12 @@ export default {
       );
     }
   },
+  methods: {
+ 
+  },
   created() {
-        this.getPosts();
-},
+    this.getPosts()
+  },
   name: "posts",
   components: {
     post

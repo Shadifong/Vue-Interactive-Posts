@@ -1,6 +1,6 @@
 <template>
 <div id="home">
-     <div class="wrapper"v-for="comment in comments" >
+     <div class="wrapper"v-for="comment in commentList" >
       <div class="comment col-sm-4"  >
 
         <div id="title">
@@ -17,44 +17,45 @@
       </div>
 </template>
 
+
+
+
 <script>
 import comment from "@/components/comment.vue";
 import '../styles/postcomments.scss'
 
-const fetch = window.location.pathname.split("/")[2];
+const fetch = window.location.pathname.split(":")[1];
 
 export default {
   data() {
     return {
-      comments: [],
-      index: 0
+      comments: []
     };
   },
-  methods: {
-    getComments() {
+  computed: {
+        commentList () {
+       return this.comments;
+      },
+         getComments() {
       this.$http
-        .get(`https://jsonplaceholder.typicode.com/posts/${fetch}/comments`)
+        .get(`https://jsonplaceholder.typicode.com/comments?postId=${fetch}`)
         .then(
           function(res) {
-            const sliced = res.data.slice(0, 10);
+            const sliced = res.data;
             this.comments = sliced;
-        
           },
-          function(error) {
-            console.log(error.statusText);
-          }
+          function(error) {}
         );
-    },
-    onClick: function(postId) {
-      var readylink = `/post/:` + postId;
-      console.log(postId);
-      window.location.href = readylink;
     }
+  
+  },
+  methods: {
+  
   },
   created() {
     this.getComments();
   },
-  name: "home",
+  name: "postcomments",
   components: {
     comment
   }

@@ -17,23 +17,23 @@
       </div>
 </template>
 
-
-
-
 <script>
 import comment from "@/components/comment.vue";
 import '../styles/postcomments.scss'
 
-const fetch = window.location.pathname.split(":")[1];
+const fetch = window.location.pathname.split("/")[2];
 
 export default {
   data() {
     return {
-      comments: []
+      comments: [],
+      index: 0
     };
-  },
-  methods: {
-    getComments() {
+  },computed: {
+        commentList () {
+       return this.comments;
+      },
+         getComments() {
       this.$http
         .get(`https://jsonplaceholder.typicode.com/comments?postId=${fetch}`)
         .then(
@@ -44,11 +44,15 @@ export default {
           function(error) {}
         );
     }
+  
+  },
+  methods: {
+  
   },
   created() {
     this.getComments();
   },
-  name: "postcomments",
+  name: "home",
   components: {
     comment
   }
