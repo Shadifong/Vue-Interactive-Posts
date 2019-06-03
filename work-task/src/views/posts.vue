@@ -1,9 +1,8 @@
 <template>
 <div>
-   <input type="text" v-model='search'  />
   <div id="home">
    
-    <div class="post" v-for="post in searchList" >
+    <div class="post" v-for="post in posts" >
       <post 
         :userId="post.userId"
         :postId="post.id"
@@ -26,7 +25,7 @@ export default {
   data() {
     return {
       posts: [],
-      search: ""
+
     };
   },
   computed: {
