@@ -1,6 +1,8 @@
 <template>
+<div>
+   <input type="text" v-model='search'  />
   <div id="home">
-    <input type="text"   v-model='search'  />
+   
     <div class="post" v-for="post in searchList" >
       <post 
         :userId="post.userId"
@@ -11,11 +13,15 @@
       />
     </div>
   </div>
+  </div>
 </template>
+
+
 
 <script>
 import post from "@/components/post.vue";
-import { compileFunction } from 'vm';
+import '../styles/posts.scss'
+
 export default {
   data() {
     return {

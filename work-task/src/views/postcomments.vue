@@ -30,18 +30,14 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
-.comment-item {
-	padding-bottom: 40px;
-	padding-top: 40px;
-  color:red;
-}
-</style>
+
 
 
 
 <script>
 import comment from "@/components/comment.vue";
+import '../styles/postcomments.scss'
+
 const fetch = window.location.pathname.split(":")[1];
 
 export default {
