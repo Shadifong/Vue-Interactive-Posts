@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <div class="post col-sm-6" >
-      <div class="post-box col-sm-4">{{title}}</div>
+    <div class="post col-sm-4" >
+      <div class="post-box">{{title}}</div>
       <div>
         <p>{{body}}</p>
       </div>
