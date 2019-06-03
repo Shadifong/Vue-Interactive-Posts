@@ -46,7 +46,7 @@ export default {
         );
     },
     onClick: function(postId) {
-      var readylink = `http://localhost:8080/post/:` + postId;
+      var readylink = `/post/:` + postId;
       console.log(postId);
       window.location.href = readylink;
     }

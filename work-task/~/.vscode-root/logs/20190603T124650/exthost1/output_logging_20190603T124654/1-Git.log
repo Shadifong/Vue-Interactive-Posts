@@ -887,3 +887,14 @@ fatal: no upstream configured for branch 'development'
 fatal: no upstream configured for branch 'development'
 > git for-each-ref --format %(refname) %(objectname) --sort -committerdate
 > git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/userposts.vue
+> git show :work-task/src/views/postcomments.vue
+> git show :work-task/src/components/post.vue
