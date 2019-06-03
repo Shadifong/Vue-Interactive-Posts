@@ -1,6 +1,6 @@
 <template>
 <div id="home">
-     <div class="wrapper"v-for="comment in comments" >
+     <div class="wrapper"v-for="comment in commentList" >
       <div class="comment col-sm-4"  >
 
         <div id="title">
@@ -32,8 +32,11 @@ export default {
       comments: []
     };
   },
-  methods: {
-    getComments() {
+  computed: {
+        commentList () {
+       return this.comments;
+      },
+         getComments() {
       this.$http
         .get(`https://jsonplaceholder.typicode.com/comments?postId=${fetch}`)
         .then(
@@ -44,6 +47,10 @@ export default {
           function(error) {}
         );
     }
+  
+  },
+  methods: {
+  
   },
   created() {
     this.getComments();

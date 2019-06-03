@@ -33,10 +33,8 @@ export default {
   computed: {
         searchList () {
        return this.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
-        }
-  },
-  methods: {
-    getPosts() {
+      },
+        getPosts() {
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
           this.posts = response.data;
@@ -47,9 +45,12 @@ export default {
       );
     }
   },
+  methods: {
+ 
+  },
   created() {
-        this.getPosts();
-},
+    this.getPosts()
+  },
   name: "posts",
   components: {
     post

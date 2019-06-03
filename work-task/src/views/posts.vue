@@ -2,7 +2,7 @@
 <div>
   <div id="home">
    
-    <div class="post" v-for="post in posts" >
+    <div class="post" v-for="post in postsList" >
       <post 
         :userId="post.userId"
         :postId="post.id"
@@ -29,12 +29,10 @@ export default {
     };
   },
   computed: {
-        searchList () {
-       return this.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
-        }
-  },
-  methods: {
-    getPosts() {
+        postsList () {
+       return this.posts;
+      },
+        getPosts() {
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
           this.posts = response.data;
@@ -44,6 +42,9 @@ export default {
         }
       );
     }
+  },
+  methods: {
+  
   },
   created() {
         this.getPosts();

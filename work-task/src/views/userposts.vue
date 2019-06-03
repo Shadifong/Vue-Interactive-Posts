@@ -1,7 +1,7 @@
 <template>
    <div id="home">
    
-    <div class="post" v-for="post in posts" >
+    <div class="post" v-for="post in postsList" >
       <post 
         :userId="post.userId"
         :postId="post.id"
@@ -25,8 +25,11 @@ export default {
       posts: [],
     };
   },
-  methods: {
-    getPosts() {
+   computed: {
+        postsList () {
+       return this.posts;
+      },
+        getposts() {
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
           this.posts = response.data;
@@ -37,9 +40,12 @@ export default {
       );
     }
   },
+  methods: {
+ 
+  },
   created() {
-        this.getPosts();
-},
+    this.getposts()
+  },
   name: "posts",
   components: {
     post
