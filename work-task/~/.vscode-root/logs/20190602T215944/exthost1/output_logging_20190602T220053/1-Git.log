@@ -1,0 +1,1398 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/shadi/Desktop/final-work/Vue-Interactive-Posts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/postcomments.vue
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/views/Home.vue
+> git check-ignore -z --stdin
+> git show :work-task/src/styles/home.sass
+> git ls-files --stage -- work-task/src/styles/
+> git check-ignore -z --stdin
+> git show :work-task/src/public/index.html
+> git show :work-task/src/components/post.vue
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/store.js
+> git show :work-task/src/views/userposts.vue
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/router.js
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/userposts.vue
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/components/post.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/styles/home.sass
+> git ls-files --stage -- work-task/src/styles/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/Home.vue
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/comments.vue
+> git show :work-task/src/views/postcomments.vue
+> git show :work-task/src/views/post.vue
+> git check-ignore -z --stdin
+> git show :work-task/src/components/post.vue
+> git show :work-task/src/views/Home.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/userposts.vue
+> git show :work-task/src/components/post.vue
+> git show :work-task/src/components/comment.vue
+> git show :work-task/src/views/comments.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/views/comments.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/router.js
+> git show :work-task/src/views/comments.vue
+> git show :work-task/src/views/userposts.vue
+> git show :work-task/src/views/postcomments.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/userposts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/store.js
+> git show :work-task/src/router.js
+> git show :work-task/src/views/posts.vue
+> git show :work-task/src/views/postcomments.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/public/index.html
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/userposts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/store.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/post.vue
+> git show :work-task/src/components/post.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/components/comment.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/Home.vue
+> git show :work-task/src/views/postcomments.vue
+> git show :work-task/src/views/userposts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/src/views/posts.vue
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse development
+> git rev-parse --symbolic-full-name development@{u}
+fatal: no upstream configured for branch 'development'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :work-task/package.json

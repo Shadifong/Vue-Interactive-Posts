@@ -1,8 +1,10 @@
 <template>
+<div>
+   <input type="text" v-model='search'  />
   <div id="home">
-    <input type="text"   v-model='search'  />
-    <div class="post" v-for="post in searchList">
-      <post
+   
+    <div class="post" v-for="post in searchList" >
+      <post 
         :userId="post.userId"
         :postId="post.id"
         :title="post.title"
@@ -11,16 +13,20 @@
       />
     </div>
   </div>
+  </div>
 </template>
+
+
 
 <script>
 import post from "@/components/post.vue";
-import { compileFunction } from 'vm';
+import '../styles/posts.scss'
+
 export default {
   data() {
     return {
       posts: [],
-      search: "sunt"
+      search: ""
     };
   },
   computed: {
@@ -33,7 +39,6 @@ export default {
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
           this.posts = response.data;
-          // console.log("data is",this.posts[0].title)
         },
         function(error) {
           return error.statusText;

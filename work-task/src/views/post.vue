@@ -1,6 +1,7 @@
 <template>
 
   <div class="main-container">
+    <div id="post">
     <post
       :title="post.title"
       :body="post.body"
@@ -9,10 +10,15 @@
       :main="false"
     />
   </div>
+  </div>
 </template>
+
+<
 
 <script>
 import post from "@/components/post.vue";
+import '../styles/post.scss'
+
 const fetch = window.location.pathname.slice(7, 8);
 export default {
   data() {
