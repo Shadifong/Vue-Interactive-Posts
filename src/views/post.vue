@@ -16,33 +16,23 @@
 <
 
 <script>
+import { mapGetters } from 'vuex'
 import post from "@/components/post.vue";
 import '../styles/post.scss'
 
 const fetch = window.location.pathname.slice(7, 8);
 export default {
-  data() {
-    return {
-      post: []
-    };
-  },
-  methods: {
-    getPost() {
-      this.$http
-        .get(`https://jsonplaceholder.typicode.com/posts/${fetch}`)
-        .then(
-          function(response) {
-            this.post = response.data;
-          },
-          function(error) {
-            return error.statusText;
-          }
-        );
-    }
-  },
+
+   computed: mapGetters({
+   
+   post: 'getSinglePost'
+  
+  
+  }),
   created() {
-    this.getPost();
-  },
+ this.$store.dispatch('getSinglePost',fetch)
+
+},
   name: "home",
   components: {
     post
