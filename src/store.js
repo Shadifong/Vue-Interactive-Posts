@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Vuex from "vuex";
 import vueResource from 'vue-resource';
+import { colors } from "vuetify/lib";
 Vue.use(vueResource);
 Vue.use(Vuex);
 
@@ -8,7 +9,7 @@ export default new Vuex.Store({
   state: {
   loading:'notLoading',
   posts:[],
-  comments:[]
+  comments:[],
 
   },
   mutations: {
@@ -18,12 +19,18 @@ export default new Vuex.Store({
     },
     SET_POSTS(state,posts){
       state.posts=posts
+    },
+    SET_POST_COMMENTS(state,comments){
+      state.comments=comments
     }
 
   },
   getters:{
   getPosts(state){
    return state.posts
+ },
+ getComments(state){
+   return state.comments
  }
 
   },
@@ -35,6 +42,7 @@ export default new Vuex.Store({
           function(response) {
             context.commit('SET_LOADING_STATUS','notLoading')
             context.commit('SET_POSTS',response.data)
+            console.log(a)
 
           },
           function(error) {
@@ -43,6 +51,21 @@ export default new Vuex.Store({
         );
       
 
+    },
+    getComments(context,commentId){
+      Vue.http
+        .get(`https://jsonplaceholder.typicode.com/comments?postId=${commentId}`)
+        .then(
+          function(res) {
+            context.commit('SET_LOADING_STATUS','notLoading')
+            context.commit('SET_POST_COMMENTS',res.data)
+            console.log(res.data)
+           
+          },
+          function(error) {
+            return error;
+          }
+        );
     },
     
     
