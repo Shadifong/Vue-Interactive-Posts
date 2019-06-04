@@ -10,6 +10,7 @@ export default new Vuex.Store({
   loading:'notLoading',
   posts:[],
   comments:[],
+  post:[]
 
   },
   mutations: {
@@ -22,7 +23,11 @@ export default new Vuex.Store({
     },
     SET_POST_COMMENTS(state,comments){
       state.comments=comments
+    },
+    SET_SINGLE_POST(state,post){
+      state.post=post
     }
+
 
   },
   getters:{
@@ -31,8 +36,10 @@ export default new Vuex.Store({
  },
  getComments(state){
    return state.comments
- }
-
+ },
+ getSinglePost(state){
+  return state.post
+}
   },
   actions: {
     getPosts(context) {
@@ -42,7 +49,6 @@ export default new Vuex.Store({
           function(response) {
             context.commit('SET_LOADING_STATUS','notLoading')
             context.commit('SET_POSTS',response.data)
-            console.log(a)
 
           },
           function(error) {
@@ -60,6 +66,21 @@ export default new Vuex.Store({
             context.commit('SET_LOADING_STATUS','notLoading')
             context.commit('SET_POST_COMMENTS',res.data)
             console.log(res.data)
+           
+          },
+          function(error) {
+            return error;
+          }
+        );
+    },
+    getSinglePost(context,postId){
+      Vue.http
+        .get(`https://jsonplaceholder.typicode.com/posts/${postId}`)
+        .then(
+          function(rese) {
+            context.commit('SET_LOADING_STATUS','notLoading')
+            context.commit('SET_SINGLE_POST',rese.data)
+            console.log("aa",`https://jsonplaceholder.typicode.com/posts/${postId}`)
            
           },
           function(error) {
