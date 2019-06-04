@@ -1,6 +1,6 @@
 <template>
 <div id="home">
-     <div class="wrapper"v-for="comment in commentList" >
+     <div class="wrapper"v-for="comment in comments" >
       <div class="comment col-sm-4"  >
 
         <div id="title">
@@ -21,39 +21,26 @@
 
 
 <script>
+import { mapGetters } from 'vuex'
 import comment from "@/components/comment.vue";
 import '../styles/postcomments.scss'
 
 const fetch = window.location.pathname.split(":")[1];
 
 export default {
-  data() {
-    return {
-      comments: []
-    };
-  },
-  computed: {
-        commentList () {
-       return this.comments;
-      },
-         getComments() {
-      this.$http
-        .get(`https://jsonplaceholder.typicode.com/comments?postId=${fetch}`)
-        .then(
-          function(res) {
-            const sliced = res.data;
-            this.comments = sliced;
-          },
-          function(error) {}
-        );
-    }
+ 
+ computed: mapGetters({
+   
+   comments: 'getComments'
   
-  },
+  
+  }),
   methods: {
   
   },
   created() {
-    this.getComments();
+     this.$store.dispatch('getComments',fetch)
+
   },
   name: "postcomments",
   components: {
