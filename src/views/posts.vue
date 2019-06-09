@@ -18,7 +18,7 @@
 
 
 <script>
-import post from "@/components/post.vue";
+import post from "@/components/post/post.vue";
 import '../styles/posts.scss'
 export default {
 
