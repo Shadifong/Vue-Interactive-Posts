@@ -26,28 +26,28 @@ import '../styles/home.scss'
 export default {
   data() {
     return {
-      posts: [],
       search: ""
     };
   },
   computed: {
         searchList () {
-       return this.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
+       return this.$store.state.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
       },
-        getPosts() {
-          
+  
+  },
+  methods: {
+          getPosts() {
+          this.$store.commit('SET_LOADING_STATUS','loading')
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
-          
-          this.posts = response.data;
+           this.$store.commit('SET_LOADING_STATUS','notLoading')
+            this.$store.commit('SET_POSTS',response.data)
         },
         function(error) {
           return error.statusText;
         }
       );
     }
-  },
-  methods: {
  
   },
   created() {
