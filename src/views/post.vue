@@ -16,7 +16,7 @@
 
 
 <script>
-import post from "@/components/post.vue";
+import post from "@/components/post/post.vue";
 import '../styles/post.scss'
 const fetch = window.location.pathname.slice(7, 8);
 export default {
