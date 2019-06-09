@@ -2,7 +2,7 @@
 <div>
   <div id="home">
    
-    <div class="post" v-for="post in posts" >
+    <div class="post" v-for="post in postsList" >
       <post 
         :userId="post.userId"
         :postId="post.id"
@@ -18,23 +18,33 @@
 
 
 <script>
-import { mapGetters } from 'vuex'
 import post from "@/components/post.vue";
 import '../styles/posts.scss'
-
 export default {
 
-computed: mapGetters({
-   
-   posts: 'getPosts'
+  computed: {
+        postsList () {
+       return this.$store.state.posts;
+      },
+        getPosts() {
+          this.$store.commit('SET_LOADING_STATUS','loading')
+      this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
+        function(response) {
+           this.$store.commit('SET_LOADING_STATUS','notLoading')
+            this.$store.commit('SET_POSTS',response.data)
+        },
+        function(error) {
+          return error.statusText;
+        }
+      );
+    }
+  },
+  methods: {
   
-  
-  }),
-
+  },
   created() {
- this.$store.dispatch('getPosts')
- 
- },
+        this.getPosts();
+},
   name: "posts",
   components: {
     post
