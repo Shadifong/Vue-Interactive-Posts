@@ -13,26 +13,37 @@
   </div>
 </template>
 
-<
+
 
 <script>
-import { mapGetters } from 'vuex'
 import post from "@/components/post.vue";
 import '../styles/post.scss'
-
 const fetch = window.location.pathname.slice(7, 8);
 export default {
-
-   computed: mapGetters({
-   
-   post: 'getSinglePost'
-  
-  
-  }),
+  data() {
+    return {
+      post: []
+    };
+  },
+  methods: {
+    getPost() {
+       this.$store.commit('SET_LOADING_STATUS','loading')
+       this.$http.get(`https://jsonplaceholder.typicode.com/posts/${fetch}`)
+      .then(
+          function(response) {
+           this.$store.commit('SET_LOADING_STATUS','notLoading')
+           this.$store.commit('SET_SINGLE_POST',response.data)
+           this.post=this.$store.state.post;
+          },
+          function(error) {
+            return error.statusText;
+          }
+        );
+    }
+  },
   created() {
- this.$store.dispatch('getSinglePost',fetch)
-
-},
+    this.getPost();
+  },
   name: "home",
   components: {
     post

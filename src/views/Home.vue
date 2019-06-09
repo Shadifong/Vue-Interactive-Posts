@@ -35,8 +35,10 @@ export default {
        return this.posts.filter( post => post.title.toLowerCase().includes(this.search.toLowerCase()));
       },
         getPosts() {
+          
       this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
         function(response) {
+          
           this.posts = response.data;
         },
         function(error) {
