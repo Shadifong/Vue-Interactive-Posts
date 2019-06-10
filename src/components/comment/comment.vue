@@ -1,18 +1,11 @@
 
 <template>
   <div class="comments">
-     <div class="comment col-sm-4"  >
-
-        <div id="title">
-          {{name}}
-          </div>
-        <div class="email">
-        {{email}}
-        </div>
-          <p>{{body}}</p>
-        </div>
-    
-      </div>
+    <div class="comment col-sm-4">
+      <div id="title">{{name}}</div>
+      <div class="email">{{email}}</div>
+      <p>{{body}}</p>
+    </div>
   </div>
 </template>
 

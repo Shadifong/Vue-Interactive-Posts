@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="post col-sm-4" >
+    <div class="post col-sm-4">
       <div class="post-box">{{title}}</div>
       <div>
         <p>{{body}}</p>
@@ -21,11 +21,9 @@
   </div>
 </template>
 <style lang="scss" src="./post.scss" scoped>
-
 </style>
 
 <script>
-
 export default {
   methods: {
     onClickpost: function(postId) {

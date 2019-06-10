@@ -1,15 +1,14 @@
 <template>
-
   <div class="main-container">
     <div id="post">
-    <post
-      :title="post.title"
-      :body="post.body"
-      :userId="post.userId"
-      :postId="post.id"
-      :main="false"
-    />
-  </div>
+      <post
+        :title="getSinglePostGetter.title"
+        :body="getSinglePostGetter.body"
+        :userId="getSinglePostGetter.userId"
+        :postId="getSinglePostGetter.id"
+        :main="false"
+      />
+    </div>
   </div>
 </template>
 
@@ -17,32 +16,17 @@
 
 <script>
 import post from "@/components/post/post.vue";
-import '../styles/post.scss'
+import { mapGetters, mapActions } from "vuex";
+import "../styles/post.scss";
 const fetch = window.location.pathname.slice(7, 8);
 export default {
-  data() {
-    return {
-      post: []
-    };
-  },
   methods: {
-    getPost() {
-       this.$store.commit('SET_LOADING_STATUS','loading')
-       this.$http.get(`https://jsonplaceholder.typicode.com/posts/${fetch}`)
-      .then(
-          function(response) {
-           this.$store.commit('SET_LOADING_STATUS','notLoading')
-           this.$store.commit('SET_SINGLE_POST',response.data)
-           this.post=this.$store.state.post;
-          },
-          function(error) {
-            return error.statusText;
-          }
-        );
-    }
+    ...mapActions(["getSinglePost"])
   },
+  computed: mapGetters(["getSinglePostGetter"]),
+
   created() {
-    this.getPost();
+    this.getSinglePost(fetch);
   },
   name: "home",
   components: {
