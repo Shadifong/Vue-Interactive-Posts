@@ -54,10 +54,6 @@ export default new Vuex.Store({
         function(rese) {
           context.commit("SET_LOADING_STATUS", "notLoading");
           context.commit("SET_SINGLE_POST", rese.data);
-          console.log(
-            "aa",
-            `https://jsonplaceholder.typicode.com/posts/${postId}`
-          );
         },
         function(error) {
           return error;
