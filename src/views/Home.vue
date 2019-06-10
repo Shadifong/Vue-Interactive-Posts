@@ -2,7 +2,7 @@
   <div>
     <input type="text" v-model="search">
     <div id="home">
-      <div class="post" v-for="post in getPosts">
+      <div class="post" v-for="post in searchList">
         <post
           :userId="post.userId"
           :postId="post.id"
@@ -30,7 +30,14 @@ export default {
       search: ""
     };
   },
-  computed: mapGetters(["getPosts"]),
+  computed: {
+    ...mapGetters(["getPosts"]),
+    searchList() {
+      return this.getPosts.filter(post =>
+        post.title.toLowerCase().includes(this.search.toLowerCase())
+      );
+    }
+  },
   methods: {
     ...mapActions(["fetchPosts"])
   },
