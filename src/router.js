@@ -19,7 +19,7 @@ export default new Router({
       component: () => import("./views/posts.vue")
     },
     {
-      path: "/post/:id",
+      path: "/post/:singlepostid",
       name: "post",
       component: () => import("./views/post.vue")
     },
@@ -29,7 +29,7 @@ export default new Router({
       component: () => import("./views/comments.vue")
     },
     {
-      path: "/comments/postId=:id",
+      path: "/comments/postId/:postId",
       name: "postcomments",
       component: () => import("./views/postcomments.vue")
     },
