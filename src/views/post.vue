@@ -19,13 +19,18 @@
 import post from "@/components/post/post.vue";
 import { mapGetters, mapActions } from "vuex";
 export default {
+  data() {
+    return {
+      id: this.$route.params.singlepostid
+    };
+  },
   methods: {
     ...mapActions(["getSinglePost"])
   },
   computed: mapGetters(["getSinglePostGetter"]),
 
   created() {
-    this.getSinglePost(this.$route.params.id[1]);
+    this.getSinglePost(this.id);
   },
   name: "home",
   components: {
