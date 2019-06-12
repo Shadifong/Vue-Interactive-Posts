@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import Home from "./pages/Home.vue";
 
 Vue.use(Router);
 
@@ -16,27 +16,27 @@ export default new Router({
     {
       path: "/posts",
       name: "posts",
-      component: () => import("./views/posts.vue")
+      component: () => import("./pages/posts.vue")
     },
     {
       path: "/post/:singlepostid",
       name: "post",
-      component: () => import("./views/post.vue")
+      component: () => import("./pages/post.vue")
     },
     {
       path: "/post/:id/comments",
       name: "comments",
-      component: () => import("./views/comments.vue")
+      component: () => import("./pages/comments.vue")
     },
     {
       path: "/comments/postId/:postId",
       name: "postcomments",
-      component: () => import("./views/postcomments.vue")
+      component: () => import("./pages/postcomments.vue")
     },
     {
       path: "/posts/userId=:id",
       name: "usercomments",
-      component: () => import("./views/userposts.vue")
+      component: () => import("./pages/userposts.vue")
     }
   ]
 });

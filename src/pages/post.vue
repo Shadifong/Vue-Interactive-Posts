@@ -1,6 +1,5 @@
 <template>
   <div class="main-container">
-    {{this.$route.params.id}}
     <div id="post">
       <post
         :title="getSinglePostGetter.title"
