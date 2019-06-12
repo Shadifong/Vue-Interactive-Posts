@@ -1,5 +1,6 @@
 <template>
   <div class="main-container">
+    {{this.$route.params.id}}
     <div id="post">
       <post
         :title="getSinglePostGetter.title"
@@ -17,15 +18,19 @@
 <script>
 import post from "@/components/post/post.vue";
 import { mapGetters, mapActions } from "vuex";
-const fetch = window.location.pathname.slice(7, 8);
 export default {
+  data() {
+    return {
+      id: this.$route.params.singlepostid
+    };
+  },
   methods: {
     ...mapActions(["getSinglePost"])
   },
   computed: mapGetters(["getSinglePostGetter"]),
 
   created() {
-    this.getSinglePost(fetch);
+    this.getSinglePost(this.id);
   },
   name: "home",
   components: {
