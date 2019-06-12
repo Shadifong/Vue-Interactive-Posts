@@ -12,12 +12,17 @@
 <script>
 import comment from "@/components/comment/comment.vue";
 import { mapGetters, mapActions } from "vuex";
-const fetch = window.location.pathname.split(":")[1];
 export default {
+  data() {
+    return {
+      id: this.$route.params.postId
+    };
+  },
   computed: mapGetters(["getComments"]),
   methods: { ...mapActions(["fetchComments"]) },
   created() {
-    this.fetchComments(fetch);
+    this.fetchComments(this.id);
+    console.log(this.id);
   },
   name: "postcomments",
   components: {
