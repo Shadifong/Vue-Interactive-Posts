@@ -17,7 +17,6 @@
 <script>
 import post from "@/components/post/post.vue";
 import { mapGetters, mapActions } from "vuex";
-import "../styles/post.scss";
 const fetch = window.location.pathname.slice(7, 8);
 export default {
   methods: {
@@ -35,8 +34,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .main-container {
   margin: 0 auto;
+}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>

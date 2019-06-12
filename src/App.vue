@@ -1,17 +1,16 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>|
       <router-link to="/posts">Posts</router-link>
-
-        </div>
+    </div>
     <router-view/>
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   font-smoothing: antialiased;
   font-smoothing: grayscale;
   text-align: center;
