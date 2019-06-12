@@ -6,17 +6,17 @@
         <p>{{body}}</p>
       </div>
       <div class="buttons">
-        <a>
-          <button class="button" v-on:click="onClickuser(userId)">User Posts</button>
-        </a>
-
-        <a :href="'/post/:' + postId" v-if="main">
+        <router-link :to="'posts/userId=:'+this.userId">
+          <button class="button">User Posts</button>
+        </router-link>
+        <router-link :to="'/post/'+this.postId">
           <button class="button">View Post</button>
-        </a>
-        <a>
-          <button class="button" v-on:click="onClickpost(postId)">View Comments</button>
-        </a>
+        </router-link>
+        <router-link :to="'/comments/postId/'+this.postId">
+          <button class="button">View Comments</button>
+        </router-link>
       </div>
+      <router-view></router-view>
     </div>
   </div>
 </template>
@@ -24,16 +24,7 @@
 
 <script>
 export default {
-  methods: {
-    onClickpost: function(postId) {
-      const link = "/comments/postId=:" + postId;
-      window.location.pathname = link;
-    },
-    onClickuser: function(userId) {
-      const linktwo = "posts/userId=:" + userId;
-      window.location.pathname = linktwo;
-    }
-  },
+  methods: {},
   name: "post",
   props: {
     title: String,
