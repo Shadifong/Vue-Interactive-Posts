@@ -6,7 +6,7 @@
         <p>{{body}}</p>
       </div>
       <div class="buttons">
-        <router-link :to="'posts/userId=:'+this.userId">
+        <router-link :to="'/posts/userid/'+this.userId">
           <button class="button">User Posts</button>
         </router-link>
         <router-link :to="'/post/'+this.postId">
@@ -61,6 +61,7 @@ a:hover {
   height: 330px;
   width: 90%;
   box-shadow: 0 2px 6px rgba(23, 26, 28, 0.1);
+  margin-bottom:5%;
 }
 
 .post-box {

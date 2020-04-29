@@ -49,6 +49,18 @@ export default new Vuex.Store({
         }
       );
     },
+    fetchPostsByUserId(context,userId) {
+      context.commit("SET_LOADING_STATUS", "loading");
+      Vue.http.get(`https://jsonplaceholder.typicode.com/posts?userId=${userId}`).then(
+        function(response) {
+          context.commit("SET_LOADING_STATUS", "notLoading");
+          context.commit("SET_POSTS", response.data);
+        },
+        function(error) {
+          return error.statusText;
+        }
+      );
+    },
     getSinglePost(context, postId) {
       Vue.http.get(`https://jsonplaceholder.typicode.com/posts/${postId}`).then(
         function(rese) {
