@@ -34,8 +34,8 @@ export default new Router({
       component: () => import("./pages/postcomments.vue")
     },
     {
-      path: "/posts/userId=:id",
-      name: "usercomments",
+      path: "/posts/userid/:id",
+      name: "userposts",
       component: () => import("./pages/userposts.vue")
     }
   ]
