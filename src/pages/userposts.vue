@@ -1,45 +1,36 @@
 <template>
-  <div id="home">
-    <div class="post" v-for="post in postsList">
-      <post
-        :userId="post.userId"
-        :postId="post.id"
-        :title="post.title"
-        :body="post.body"
-        :main="true"
-      />
+  <div>
+    <div id="home">
+      <div class="post" v-for="post in getPosts">
+        <post
+          :userId="post.userId"
+          :postId="post.id"
+          :title="post.title"
+          :body="post.body"
+          :main="true"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 
+
 <script>
 import post from "@/components/post/post.vue";
-
+import { mapGetters, mapActions } from "vuex";
 export default {
-  data() {
+    data() {
     return {
-      posts: []
+      id: this.$route.params.id
     };
   },
-  computed: {
-    postsList() {
-      return this.posts;
-    },
-    getposts() {
-      this.$http.get("https://jsonplaceholder.typicode.com/posts").then(
-        function(response) {
-          this.posts = response.data;
-        },
-        function(error) {
-          return error.statusText;
-        }
-      );
-    }
+  computed: mapGetters(["getPosts"]),
+  methods: {
+    ...mapActions(["fetchPostsByUserId"])
   },
-  methods: {},
   created() {
-    this.getposts();
+    this.fetchPostsByUserId(this.id);
   },
   name: "posts",
   components: {
@@ -47,6 +38,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 #home {

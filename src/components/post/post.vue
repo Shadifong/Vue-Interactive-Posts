@@ -6,7 +6,7 @@
         <p>{{body}}</p>
       </div>
       <div class="buttons">
-        <router-link :to="'posts/userId=:'+this.userId">
+        <router-link :to="'/posts/userid/'+this.userId">
           <button class="button">User Posts</button>
         </router-link>
         <router-link :to="'/post/'+this.postId">
